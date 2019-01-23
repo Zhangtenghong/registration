@@ -1,0 +1,21 @@
+*{
+  margin:10px 20px;
+}
+
+#notification{
+  display:none;
+  width:30vw;
+  color:blue;
+  border:1px solid blue;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:12px
+}
+
+#notification2{
+  display:none;
+  width:30vw;
+  color:blue;
+  border:1px solid blue;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:12px
+}

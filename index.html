@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="main.js" defer></script>
+</head>
+ <body>
+   <form name="myForm">
+     <h2>My Registration Form</h2>
+     First Name:
+     <input type="text" name="firstname"><br>
+     Last Name:
+     <input type="text" name="lastname"><br>
+     Email:
+     <input type="email" name="email"><br>
+     Password:
+     <input type="password" id="psw" name="password">
+     <div id="notification">
+      <p>Password must contain the following</p>
+      <p id="lowletter">A lowercase letter</p>
+      <p id="upperletter">A Captical(uppercase)letter</p>
+      <p id="number">A number</p>
+      <p id="length">Minimum 8 characters</p>
+    </div><br>
+     PW Confirm:
+     <input type="password" id="psw2" name="password">
+     <div id=notification2>
+       <p>The password confirmation doesn't match</p>
+     </div>
+     <br>
+     Birthday:
+     <input type="date" id="bday" name="bday"><br>
+     <input type="radio" name="gender" value="male"> Male
+     <input type="radio" name="gender" value="female"> Female
+     <input type="radio" name="gender" value="other"> Other<br> 
+     A short description about yourself<br>:
+     <textarea name="aboutme" cols="30" rows="5"></textarea><br>
+     Favorite Language:
+     <select name="language">
+       <option value="JavaScript">JavaScript</option>
+       <option value="C++">C++</option>
+       <option value="Python">Python</option>
+     </select><br>
+     <input type="submit" value="Submit">
+   </form>
+ </body>
+</html>
